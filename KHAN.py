@@ -199,9 +199,9 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m[3]\033[1;45m\033[1;32mDownload Token App               \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;94m[4]\033[1;45m\033[1;32mSubscribe Usman Techchanel      \033[1;0m"
-        time.sleep(0.05)
-	print "\033[1;95m[5]\033[1;45m\033[1;32mJoin Whatsapp group For Help           \033[1;0m"
+        print "\033[1;94m[4]\033[1;45m\033[1;32mSubscribe Nisar Mahsud      \033[1;0m"
+        time.sleep(0.
+	print "\033[1;95m[5]\033[1;45m\033[1;32mJoin Whatsapp group For Help           \03"
         time.sleep(0.05)
         print "\033[1;95m[0]\033[1;45m\033[1;34mExit                             \033[1;0m"
 	time.sleep(0.05)
@@ -315,7 +315,7 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;94mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev: Usman-Tech
+	os.system("clear") #Dev: Nisar-Tech
 	print logo
 	print "\033[1;35m[!]\033[1;92m Logged in User Information\033[1;92m"
 	time.sleep(0.05)
@@ -328,7 +328,7 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;93m[2]\033[1;45m\033[1;32mID Not Found Problem Solve                     \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;94m[3]\033[1;45m\033[1;32mRest/Update Usman                         \033[1;0m"
+	print "\033[1;94m[3]\033[1;45m\033[1;32mRest/Update Nisar                         \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;95m[0]\033[1;45m\033[1;35mExit                                      \033[1;0m"
 	time.sleep(0.05)
@@ -454,7 +454,7 @@ def pilih_super():
 			print"\033[1;95m[+]\x1b[1;92mID Not Found!"
 			raw_input("\n\033[1;96m[\033[1;95mBack\033[1;96m]")
 			super()
-		print"\033[1;92m[+]\033[1;95mUsman TooL█████████████████▒▒▒▒▒▒▒▒..100%\033[1;95m:-:"
+		print"\033[1;92m[+]\033[1;95mNisar TooL█████████████████▒▒▒▒▒▒▒▒..100%\033[1;95m:-:"
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -479,7 +479,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:USMAN-TECH
+			pass #Dev:Nisar-TECH
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -689,10 +689,10 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 #Dev: USMAN-TECH
-        print "\033[1;95m•-----------------\033[1;35m👺USMAN\033[1;95m-----------------•"
+        print "\033[1;95m•-----------------\033[1;35m👺Nisar\033[1;95m-----------------•"
 	print '\033[1;95m[+]\033[1;45m \033[1;32mProcess Has Been Completed\033[1;0m'
 	print"\033[1;95m[+]\033[1;95mTotal \033[1;95mOK/\x1b[1;95mCP \033[1;95m: \033[1;95m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print "\033[1;95m«-----------------\033[1;35m👺USMAN👺\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;35m👺Nisar👺\033[1;95m-----------------»"
 	print """
  \033[1;95m
 
