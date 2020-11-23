@@ -199,10 +199,8 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m[3]\033[1;45m\033[1;32mDownload Token App               \033[1;0m"
         time.sleep(0.05)
-        print "\033[1;94m[4]\033[1;45m\033[1;32mSubscribe Nisar Mahsud      \033[1;0m"
-        time.sleep(0.
-	print "\033[1;95m[5]\033[1;45m\033[1;32mJoin Whatsapp group For Help           \03"
-        time.sleep(0.05)
+        
+        
         print "\033[1;95m[0]\033[1;45m\033[1;34mExit                             \033[1;0m"
 	time.sleep(0.05)
 	pilih_login()
