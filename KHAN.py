@@ -2,7 +2,7 @@
 #coding=utf-8
 #The Credit For This Code Goes To Nisar Mahsud Tech
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2020
+#Reserved2020d
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -182,7 +182,7 @@ while (loop == 'true'):
             os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
     else:
         print "\033[1;97mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
+        os.system('xdg-open 
 
 ##### LICENSE #####
 #=================#
