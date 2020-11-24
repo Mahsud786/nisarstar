@@ -214,12 +214,7 @@ def pilih_login():
         elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
-        elif peak =="4":
-	        os.system('xdg-open https://www.youtue.com')
-	        login()
-        elif peak =="5":
-	        os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
-                login()
+       
 	elif peak =="0":
 		keluar()
         else:
